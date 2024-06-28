@@ -1,15 +1,16 @@
 # GeoAI Report
 ## Published Report Describing Model Deployed by ATR/BPN
 ![](https://img.shields.io/badge/Maintained-Yes-green) ![](https://img.shields.io/badge/Release-v.1-blue) ![](https://img.shields.io/badge/Owner-AI_Research_Team-orange)
+
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
 A Collection of reports obtained from testing Geospatial Artificial Intelligence (GeoAI) by the AI Research Team to ensure quality and transparency to the public. Reports include:
-&nbsp;-> Model architecture in general
-&nbsp;-> Metric
-&nbsp;-> Sample output
-&nbsp;-> Short explanation (eg: unique cases, advantage/disadvantage, etc)
+- Model architecture in general
+- Metric
+- Sample output
+- Short explanation (eg: unique cases, advantage/disadvantage, etc)
 
-
+<br>
 
 ### Deployed Model
 - Import a HTML file and watch it magically convert to Markdown
