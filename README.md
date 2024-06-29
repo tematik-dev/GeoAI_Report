@@ -4,6 +4,9 @@
 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
+> ***Update v.1*** <br>
+> Adding reports of GeoAI-Parcel Shape Classification and Tree Species Detection models to the repo
+
 A Collection of reports obtained from testing Geospatial Artificial Intelligence (GeoAI) by the AI Research Team to ensure quality and transparency to the public. Reports include:
 - Background/Description
 - Model architecture in general
@@ -13,24 +16,25 @@ A Collection of reports obtained from testing Geospatial Artificial Intelligence
 
 <br>
 
-### Deployed Model
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+### Deployed Models
+Deployed models are models being used currently by the team to produce the desired thematic maps 
+- [Parcel Shape Classification](www.google.com)
+- [Tree Species Detection](www.google.com)
+
+<br>
+
+### Models in Development
+Models in development represent models being developed and not ready to be deployed before passing testing phase
+- [Settlement](www.google.com)
+- [LULC Change](www.google.com)
+- [Green Space](www.google.com)
+- [Bulding Floor Coefficient](www.google.com)
+
+<br>
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
 As [John Gruber] writes on the [Markdown site][df1]
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
 
 This text you see here is *actually- written in Markdown! To get a feel
 for Markdown's syntax, type some text into the left window and
