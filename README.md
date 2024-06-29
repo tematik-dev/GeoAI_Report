@@ -48,7 +48,7 @@ Any request or report can be delivered through our geoportal
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [Image01]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/src/Image01.png>
-   [Parcel Shape Classification]: <https://github.com/joemccann/dillinger>
+   [Parcel Shape Classification]: <https://github.com/tematik-dev/GeoAI_Report/tree/main/model/geoai_classification_parcelshape>
    [Tree Species Detection]: <https://github.com/joemccann/dillinger.git>
 
 
