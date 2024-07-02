@@ -1,16 +1,15 @@
 # GeoAI Report
 ## Parcel Shape
-![](https://img.shields.io/badge/Task-Classification-gold) ![](https://img.shields.io/badge/Release-v.3-blue) ![](https://img.shields.io/badge/Status-Deployed-orange)
+![](https://img.shields.io/badge/Task-Classification-gold) ![](https://img.shields.io/badge/Release-V.3.1-blue) ![](https://img.shields.io/badge/Status-Deployed-darkgreen)
 
-> ***Update v.3*** <br>
+> ***Update v.3.1*** <br>
 > Increasing model performance (accuracy and processing time)
 
-A Collection of reports obtained from testing Geospatial Artificial Intelligence (GeoAI) by the AI Research Team to ensure quality and transparency to the public. Reports include:
-- Background/Description
-- Model architecture in general
-- Metric
-- Sample output
-- Short explanation (eg: unique cases, advantage/disadvantage, etc)
+### Background / Description
+This deep learning model serves the purpose of classifying land parcel shapes based on vector data. Its primary objective is to inform users and consumers about the shape of a desired land parcel. The model categorizes parcels into the following shape types: Irregular, L-shaped, Rectangular, Round, Square, Trapezoid, and Triangular. The practical applications of this classification extend to various stakeholders. For instance:
+- Property developers often prefer square or rectangular shapes because of its convenience in calculating area.
+- Government entities may prioritize triangular or round parcels for park development in order to increase green open space area and because of the lack of interest by public to develop in those shapes.
+- Warehouse managers might find L-shaped parcels suitable for their needs because heavy vehicle can get in from on end - ----.
 
 <br>
 
