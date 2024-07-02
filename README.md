@@ -18,10 +18,10 @@ A Collection of reports obtained from testing Geospatial Artificial Intelligence
 
 ### Deployed Models
 Deployed models are models being used currently by the team to produce the desired thematic maps
-| Model | Version | Task |
-| ------ | ------ | ------ |
-| [Parcel Shape Classification] | ![](https://img.shields.io/badge/Version-v.3-red) | Classifying land parcel shape |
-| [Tree Species Detection] | ![](https://img.shields.io/badge/Version-v.1-red) | Detecting tree species in land parcel |
+| Model | Version | Task | Report Status |
+| ------ | ------ | ------ | ------ | 
+| [Parcel Shape Classification] | ![](https://img.shields.io/badge/Version-v.3-gold) | Classifying land parcel shape | ![](https://img.shields.io/badge/Status-Active-darkgreen) |
+| [Tree Species Detection] | ![](https://img.shields.io/badge/Version-v.1-gold) | Detecting tree species in land parcel | ![](https://img.shields.io/badge/Status-Down-darkred) |
 
 <br>
 
