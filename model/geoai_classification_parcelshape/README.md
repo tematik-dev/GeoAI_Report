@@ -1,6 +1,6 @@
 # GeoAI Report
 ## Parcel Shape
-![](https://img.shields.io/badge/Task-Classification-gold) ![](https://img.shields.io/badge/Release-V.3.1-blue) ![](https://img.shields.io/badge/Status-Deployed-darkgreen)
+![](https://img.shields.io/badge/Task-Classification-gold) ![](https://img.shields.io/badge/Data-Vector-white) ![](https://img.shields.io/badge/Release-V.3.1-blue) ![](https://img.shields.io/badge/Status-Deployed-darkgreen)
 
 > ***Update V.3.1*** <br>
 > Increasing model performance (accuracy and processing time)
@@ -64,7 +64,7 @@ ____
 ____
 
 ### Output
-<p align=justify> This is the 3rd model (Version 3.1) of parcel shape classifier. The previous classifiers (V.1 and V.2) were made using the same major backbone, ResNet, but they were using different layer numbers and configuration. The first generation was using default ResNet-50, while the second generation was using default ResNet-18. Since major improvement in terms of efficiency was obtained, customization was carried out on ResNet-18 to enhance the model and create the third generation (Custom ResNet-18). The history of our model's performances are shown below </p>
+<p align=justify> The obtained information from parcel shape thematic data is the shape iteself and confidence score in the form of fields in vector data. Here's the sample image </p>
 
 ____
 
