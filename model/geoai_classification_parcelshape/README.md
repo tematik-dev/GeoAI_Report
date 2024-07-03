@@ -17,14 +17,21 @@
 ____
 
 ### Description
-<p align=justify> As explained in the background section, the shapes classified by the model are: Irregular, L-shaped, Rectangular, Round, Square, Trapezoid, and Triangular. Here's the description for each shape: </p>
+<p align=justify> As explained in the background section, the shapes classified by the model are: Irregular, L-shaped, Rectangular, Round, Square, Trapezoid, and Triangular. The classification for each shape isn't limited to orderly shape or shape with neat/straight sidelines. Shape with curvy/jagged sides is also classified into these 7 shapes according to the shape similarity and not automatically classified into irregular. Here's the sample images and description for each shape: </p>
 
-| Model | Version | Task |
-| ------ | ------ | ------ |
-| [Parcel Shape Classification] | ![](https://img.shields.io/badge/Version-v.3-red) | Classifying land parcel shape |
-| [Tree Species Detection] | ![](https://img.shields.io/badge/Version-v.1-red) | Detecting tree species in land parcel |
+![image_shapetable]
 
-<br>
+| Shape | Description |
+| ------ | ------ |
+| Irregular | Parcel with uncommon shape based on the mentioned/referenced shapes below |
+| L | parcel with shape forming an "L" letter |
+| Rectangular | Parcel with shape forming a rectangular shape. This parcel is classified as rectangular if the length of the longer sides are 1.5 longer than the shorter sides |
+| Square | Parcel with shape forming a square where each side has similar length. This parcel is classified as square if the length difference between each  sides is less than or equal to 1.5 |
+| Trapezoid | Parcel with shape forming a trapezoid |
+| Triangular | Parcel with shape forming a triangular shape |
+| Round | Parcel with shape forming a round shape |
+
+____
 
 ### Models in Development
 Models in development represent models being developed and not ready to be deployed before passing testing phase
@@ -48,6 +55,7 @@ Any request or report can be delivered through our geoportal
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
+   [image_shapetable]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_shapetable.png>
    [Image01]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/src/Image01.png>
    [Parcel Shape Classification]: <https://github.com/joemccann/dillinger>
    [Tree Species Detection]: <https://github.com/joemccann/dillinger.git>
