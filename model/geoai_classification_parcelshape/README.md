@@ -64,7 +64,7 @@ ____
 ____
 
 ### Output
-<p align=justify> The obtained information from parcel shape thematic data is the shape iteself and confidence score in the form of fields in vector data. Here's the sample image </p>
+<p align=justify> The obtained information from parcel shape thematic data is the shape iteself and confidence score in the form of fields in vector data. Here are the sample images </p>
 
 ____
 
@@ -81,9 +81,6 @@ Any request or report can be delivered through our geoportal
    [image_resnet18architecture]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_resnet18architecture.png>
    [image_metriceachversion]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_metriceachversion.png>
    [image_confmatrix]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_confmatrix.png>
-   [Image01]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/src/Image01.png>
-   [Parcel Shape Classification]: <https://github.com/joemccann/dillinger>
-   [Tree Species Detection]: <https://github.com/joemccann/dillinger.git>
 
 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
