@@ -2,7 +2,7 @@
 ## Parcel Shape
 ![](https://img.shields.io/badge/Task-Classification-gold) ![](https://img.shields.io/badge/Release-V.3.1-blue) ![](https://img.shields.io/badge/Status-Deployed-darkgreen)
 
-> ***Update v.3.1*** <br>
+> ***Update V.3.1*** <br>
 > Increasing model performance (accuracy and processing time)
 
 ### Background
@@ -48,6 +48,8 @@ ____
 <p align=left>
 <img src="https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_metriceachversion.png" width=100% height=90%>
 </p>
+
+<p align=justify> The images show that V.3.1 outperforms other models in terms of accuracy and efficiency (inference speed). The confusion matrix and per-class accuracy (producer and user accuracy) of model V.3.1 are shown below </p> 
 
 <br>
 
