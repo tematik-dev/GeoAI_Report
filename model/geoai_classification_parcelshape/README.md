@@ -43,7 +43,7 @@ ____
 ____
 
 ### Performance
-<p align=justify> This is the 3rd model (Version 3.1) of parcel shape classifier. The previous classifiers (V.1 and V.2) were made using the same major backbone, ResNet, but they were using different layer numbers and configuration. The first generation was using default ResNet-50, while the second generation was using default ResNet-18. Since major improvement in terms of efficiency was obtained, customization was carried out on ResNet-18 to enhance the model and create the third generation (Custom ResNet-18). The history of our model's performances are shown below </p>
+<p align=justify> This is the 3rd model (Version 3.1) of parcel shape classifier. The previous classifiers (V.1 and V.2) were made using the same major backbone, ResNet, but they were using different layer numbers and configuration. The first generation was using default ResNet-50, while the second generation was using default ResNet-18. Since major improvement in terms of efficiency was obtained, customization was carried out on ResNet-18 to enhance the model and create the third generation (Custom ResNet-18). The history of our model's performances are shown below. (Note: Inference speed was tested on Central Jakarta City land parcel). </p>
 
 <p align=center>
 <img src="https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_metriceachversion.png" width=80% height=80%>
@@ -68,8 +68,12 @@ ____
 
 ____
 
-## Contact
+### Short Explanation
 Any request or report can be delivered through our geoportal
+
+
+
+
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
