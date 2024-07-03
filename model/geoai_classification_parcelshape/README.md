@@ -43,7 +43,11 @@ ____
 ____
 
 ### Performance
-<p align=justify> This is the 3rd model (Version 3.1) of parcel shape classifier. The previous classifiers (V.1 and V.2) were made using the same major backbone, ResNet, but they were using different layer numbers and configuration. The first generation was using default ResNet-50, while the second generation was using default ResNet-18. Since major improvement in terms of efficiency was obtained, customization was carried out on ResNet-18 to enhance the model and create the third generation (Custom ResNet-18). The history of our model's performance are shown below </p> 
+<p align=justify> This is the 3rd model (Version 3.1) of parcel shape classifier. The previous classifiers (V.1 and V.2) were made using the same major backbone, ResNet, but they were using different layer numbers and configuration. The first generation was using default ResNet-50, while the second generation was using default ResNet-18. Since major improvement in terms of efficiency was obtained, customization was carried out on ResNet-18 to enhance the model and create the third generation (Custom ResNet-18). The history of our model's performances are shown below </p>
+
+<p align=left>
+<img src="https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_metriceachversion.png" width=100% height=90%>
+</p>
 
 <br>
 
@@ -58,6 +62,7 @@ Any request or report can be delivered through our geoportal
 
    [image_shapetable]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_shapetable.png>
    [image_resnet18architecture]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_resnet18architecture.png>
+   [image_metriceachversion]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_metriceachversion.png>
    [Image01]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/src/Image01.png>
    [Parcel Shape Classification]: <https://github.com/joemccann/dillinger>
    [Tree Species Detection]: <https://github.com/joemccann/dillinger.git>
