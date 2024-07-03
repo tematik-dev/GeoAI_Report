@@ -33,12 +33,8 @@ ____
 
 ____
 
-### Models in Development
-Models in development represent models being developed and not ready to be deployed before passing testing phase
-- Settlement
-- LULC Change
-- Green Space
-- Bulding Floor Coefficient
+### Model Architecture
+Custom ResNet-18
 
 <br>
 
