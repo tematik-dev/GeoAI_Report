@@ -36,7 +36,7 @@ ____
 ### Model Architecture
 <p align=justify> The model is based on ResNet-18 with a little adjustments/customizations on its layers to our needs hence we call it "Custom ResNet-18. The adjustments were performed to address the issue where the model were having a hard time to recognize the image patterns since the image just a plain white/black, so there's no pattern to be recognized directly unlike standard RGB camera images. Here's the original ResNet-18 architecture according to <a href="https://link.springer.com/article/10.1007/s10916-019-1475-2">Ramzan., et al (2019)</a> : </p>
 
-<p align=left>
+<p align=center>
 <img src="https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_resnet18architecture.png" width=90% height=90%>
 </p>
 
@@ -45,17 +45,28 @@ ____
 ### Performance
 <p align=justify> This is the 3rd model (Version 3.1) of parcel shape classifier. The previous classifiers (V.1 and V.2) were made using the same major backbone, ResNet, but they were using different layer numbers and configuration. The first generation was using default ResNet-50, while the second generation was using default ResNet-18. Since major improvement in terms of efficiency was obtained, customization was carried out on ResNet-18 to enhance the model and create the third generation (Custom ResNet-18). The history of our model's performances are shown below </p>
 
-<p align=left>
-<img src="https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_metriceachversion.png" width=100% height=90%>
+<p align=center>
+<img src="https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_metriceachversion.png" width=80% height=80%>
 </p>
 
-<p align=justify> The images show that V.3.1 outperforms other models in terms of accuracy and efficiency (inference speed). The confusion matrix and per-class accuracy (producer and user accuracy) of model V.3.1 are shown below </p> 
+<p align=justify> The images show that V.3.1 outperforms other models in terms of accuracy and efficiency (inference speed). The confusion matrix and per-class accuracy (producer and user accuracy) of model V.3.1 are shown below. </p> 
 
-<br>
+<div align=center>
+<img src="https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_confmatrix.png" width=60% height=60%>
 
-![Image01]
+| Metric | Irregular | L | Rectangular | Square | Trapezoid | Triangular | Round |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Producer's Accuracy | 0.86 | 0.92 | 0.96 | 1.00 | 0.87 | 0.97 | 1.00 |
+| Users's Accuracy | 0.92 | 0.95 | 0.90 | 0.97 | 0.91 | 0.94 | 1.00 |
 
-<br>
+</div>
+
+____
+
+### Output
+<p align=justify> This is the 3rd model (Version 3.1) of parcel shape classifier. The previous classifiers (V.1 and V.2) were made using the same major backbone, ResNet, but they were using different layer numbers and configuration. The first generation was using default ResNet-50, while the second generation was using default ResNet-18. Since major improvement in terms of efficiency was obtained, customization was carried out on ResNet-18 to enhance the model and create the third generation (Custom ResNet-18). The history of our model's performances are shown below </p>
+
+____
 
 ## Contact
 Any request or report can be delivered through our geoportal
@@ -65,6 +76,7 @@ Any request or report can be delivered through our geoportal
    [image_shapetable]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_shapetable.png>
    [image_resnet18architecture]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_resnet18architecture.png>
    [image_metriceachversion]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_metriceachversion.png>
+   [image_confmatrix]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_confmatrix.png>
    [Image01]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/src/Image01.png>
    [Parcel Shape Classification]: <https://github.com/joemccann/dillinger>
    [Tree Species Detection]: <https://github.com/joemccann/dillinger.git>
