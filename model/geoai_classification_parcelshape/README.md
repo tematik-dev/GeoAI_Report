@@ -36,8 +36,8 @@ ____
 ### Model Architecture
 <p align=justify> The model is based on ResNet-18 with a little adjustments/customizations on its layers to our needs hence we call it "Custom ResNet-18. The adjustments were performed to address the issue where the model were having a hard time to recognize the image patterns since the image just a plain white/black, so there's no pattern to be recognized directly unlike standard RGB camera images. Here's the original ResNet-18 architecture according to <a href="https://link.springer.com/article/10.1007/s10916-019-1475-2">Ramzan., et al (2019)</a> : </p>
 
-<p align=center>
-<img src="https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_resnet18architecture.png" width=80% height=80%>
+<p align=left>
+<img src="https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_resnet18architecture.png" width=90% height=90%>
 </p>
 
 ____
