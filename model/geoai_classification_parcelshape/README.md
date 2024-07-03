@@ -5,16 +5,20 @@
 > ***Update v.3.1*** <br>
 > Increasing model performance (accuracy and processing time)
 
-### Background / Description
-This deep learning model serves the purpose of classifying land parcel shapes based on vector data. Its primary objective is to inform users and consumers about the shape of a desired land parcel. The model categorizes parcels into the following shape types: Irregular, L-shaped, Rectangular, Round, Square, Trapezoid, and Triangular. The practical applications of this classification extend to various stakeholders. For instance:
+### Background
+<p align=justify> This deep learning model serves the purpose of classifying land parcel shapes based on vector data. Its primary objective is to inform users and consumers about the shape of a desired land parcel. The model categorizes parcels into the following shape types: Irregular, L-shaped, Rectangular, Round, Square, Trapezoid, and Triangular. The practical applications of this classification extend to various stakeholders. For instance: </p>
+
 - Property developers often prefer square or rectangular shapes because of its convenience in calculating area.
 - Government entities may prioritize triangular or round parcels for park development in order to increase green open space area and because of the lack of interest by public to develop in those shapes.
-- Warehouse managers might find L-shaped parcels suitable for their needs because heavy vehicle can get in from on end - ----.
+- Warehouse managers might find L-shaped parcels suitable for their needs because heavy vehicle can get in from one end and store cargos in the other end. Other than that, L-shaped parcels are usually located near street intersections which might benefit retail shop developers.
 
-<br>
+<p align=justify> By providing accurate shape classification, this model facilitates informed decision-making in land use and development scenarios. </p>
 
-### Deployed Models
-Deployed models are models being used currently by the team to produce the desired thematic maps
+____
+
+### Description
+<p align=justify> As explained in the background section, the shapes classified by the model are: Irregular, L-shaped, Rectangular, Round, Square, Trapezoid, and Triangular. Here's the description for each shape: </p>
+
 | Model | Version | Task |
 | ------ | ------ | ------ |
 | [Parcel Shape Classification] | ![](https://img.shields.io/badge/Version-v.3-red) | Classifying land parcel shape |
