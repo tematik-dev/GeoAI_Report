@@ -75,7 +75,9 @@ ____
 ### Short Explanation
 <p align=justify> Through our inspection, we've found some misclassified shapes (ofc, since we can't get 100% accuracy). Most of the known misclassified shapes are L shape which is reflected in the confusion matrix. This happens because some of the irregular shapes have similar appearances like the ones in L shape. For example, some irregular shapes are T-shaped which kind of similar to L shape. These two almost have identical overall appearance, but the main difference is just an extra stripe in T shape. Because of this, these two are misclassified interchangeably. However, we can still get over this problem by looking at the confidence level. The misclassified shapes are having lower confidence value compared to other shapes with correct classification. Here are the examples: </p>
 
-
+<p align=center>
+   <img src="https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_compareclassconf.png" width=60% height=60%>
+</p>
 
 
 
@@ -87,3 +89,4 @@ ____
    [image_confmatrix]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_confmatrix.png>
    [image_exampshape]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_exampshape.png>
    [image_exampconfid]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_exampconfid.png>
+   [image_compareclassconf]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_compareclassconf.png>
