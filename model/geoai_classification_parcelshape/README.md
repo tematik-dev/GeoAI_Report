@@ -73,7 +73,7 @@ ____
 ____
 
 ### Short Explanation
-Any request or report can be delivered through our geoportal
+<p align=justify> Through our inspection, we've found some misclassified shapes (ofc, since we can't get 100% accuracy). Most of the known misclassified shapes are L shape which is reflected in the confusion matrix. This happens because some of the irregular shapes have similar appearances like the ones in L shape. For example, some irregular shapes are T-shaped which kind of similar to L shape. These two almost have identical overall appearance, but the main difference is just an extra stripe in T shape. Because of this, these two are misclassified interchangeably. However, we can still get over this problem by looking at the confidence level. The misclassified shapes are having lower confidence value compared to other shapes with correct classification. Here are the examples: </p>
 
 
 
@@ -87,11 +87,3 @@ Any request or report can be delivered through our geoportal
    [image_confmatrix]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_confmatrix.png>
    [image_exampshape]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_exampshape.png>
    [image_exampconfid]: <https://github.com/tematik-dev/GeoAI_Report/blob/main/model/geoai_classification_parcelshape/src/image_exampconfid.png>
-
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
